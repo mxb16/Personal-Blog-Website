@@ -1,0 +1,77 @@
+.main {
+    grid-area: main;
+    display: grid;
+    grid-template-areas: 
+    "info social"
+    "body body";
+}
+
+.author {
+    grid-area: info;
+    border: 1px inset #edf5e1;
+    border-radius: 30px;
+    margin: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    background-color: #edf5e1;
+    color: #05386b;
+    
+}
+
+.author img {
+    width: 40%;
+    height: 100%;
+    margin: 10px;
+}
+#who {
+    font-size: 2em;
+    color: #7a0f14;
+}
+.info span {
+    font-weight: bold;
+}
+
+.social {
+    grid-area: social;
+    color: #000000;
+    max-width: 500px;
+    margin: 20px;
+
+
+}
+.social span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.social img {
+    width: 20px;
+    height: 20px;
+}
+.content {
+    grid-area: body;
+    color: #164b80;
+
+}
+.content h1,h2 {
+    color: #05386b;
+    font-size: 2em;
+    
+}
+.album {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.album img {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000000;
+    margin: 15px;
+}
+
+.album figcaption {
+    text-align: center;
+}

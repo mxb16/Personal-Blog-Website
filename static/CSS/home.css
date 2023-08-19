@@ -1,0 +1,78 @@
+
+ .main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    
+ }
+
+ .blogs {
+
+     display: flex;
+     flex-direction: column;
+    
+ }
+ .cards {
+     display: flex;
+     flex-direction: column-reverse;
+     overflow: auto;
+     white-space: nowrap;
+ }
+ .photos {
+
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+     white-space: nowrap;
+     
+ }
+ 
+ .subtext {
+     font-size: 40px;
+     color: #05386b;
+     text-decoration: underline;
+ }
+ .album {
+     display:grid ;
+     grid-template-columns: 50% 50%;
+     overflow: auto;
+     white-space: nowrap;
+ }
+
+ .card {
+     border: 1px inset #05386b;
+     border-radius: 50px;
+     margin: 5px;
+     padding: 10px;
+     display: flex;
+     flex-direction: row;
+     width: 400px;
+     height: 150px;
+     background-color: #05386b;
+     color: #edf5e1;
+ }
+ 
+ 
+ 
+ .cardtext {
+    display: flex;
+    flex-direction: column;
+
+ }
+ 
+ 
+ .album img {
+     height: 250px;
+     width: 400px;
+     border: 10px solid #05386b;
+ 
+ }
+ 
+ .card img {
+     height: 100px;
+     width: 150px;
+     border: 3px solid #edf5e1;
+     margin: 15px;
+ }
+ 
+ 

@@ -1,0 +1,17 @@
+/*Medium Screens*/
+@media (min-width: 600px)and (max-width:900px) {
+    .main {
+      grid-template-areas: 
+       "info main"
+       "social  main";
+    }
+  }
+  
+  /*Large Screens*/
+  @media (min-width:901px) {
+    .main {
+      grid-template-areas: 
+      "info main main"
+      "social  main main"
+    }
+  }
